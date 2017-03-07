@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JobProtocolEditorSaveData>
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <objectType>OBJ102</objectType>
+        <settingParam1>70% ethanol</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>1</settingParam3>
+        <settingParam4>180</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ102</objectType>
+        <settingParam1>(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <objectType>OBJ102</objectType>
+        <settingParam1>washing buffer</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>1</settingParam3>
+        <settingParam4>180</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ102</objectType>
+        <settingParam1>(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <objectType>OBJ102</objectType>
+        <settingParam1>water</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>1</settingParam3>
+        <settingParam4>180</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ102</objectType>
+        <settingParam1>(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+        <comment>PSQ 96 plate</comment>
+        <objectType>OBJ103</objectType>
+        <settingParam1>annealing buffer</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>96</settingParam3>
+        <settingParam4>40</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1>pyrosequencing primer</settingParam1>
+        <settingParam2>0.015</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>73</id>
+        <comment>80 deg. celcius
+Step 16</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1>Etc.</settingParam1>
+        <settingParam2>2</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <comment>Pyrosequencing plate</comment>
+        <objectType>OBJ103</objectType>
+        <settingParam1>RT</settingParam1>
+      </item>
+    </object>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <objectType>OBJ103</objectType>
+        <settingParam1>binding buffer</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>96</settingParam3>
+        <settingParam4>51</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1>sepharose beads</settingParam1>
+        <settingParam2>4</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1>PCR product</settingParam1>
+        <settingParam2>25</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>73</id>
+        <comment>1,400 r.p.m.</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1>RT</settingParam1>
+        <settingParam2>10</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>241785388342801TM</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Vacuum aspiration process</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Immerse tips 5s to ethanol 70%</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Immerse tips 5s to denaturing solution</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Immerse tips 5s to washing solution</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Immerse tips 5s to annealing buffer</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 15</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Aspirate filter tips to water trough</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ103</objectType>
+        <settingParam1>(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>

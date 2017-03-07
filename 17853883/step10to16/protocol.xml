@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">70% ethanol</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">180</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">washing buffer</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">180</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">water</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">180</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+        <comment>PSQ 96 plate</comment>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">annealing buffer</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">96</settingParam3>
+        <settingParam4 name="Initial volume">40</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">pyrosequencing primer</settingParam1>
+        <settingParam2 name="Reagent quantity">0.015</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>3</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND</type>
+        <id>73</id>
+        <comment>80 deg. celcius
+Step 16</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">Etc.</settingParam1>
+        <settingParam2 name="Timer">2</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>12</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <comment>Pyrosequencing plate</comment>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">RT</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>5</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">binding buffer</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">96</settingParam3>
+        <settingParam4 name="Initial volume">51</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">sepharose beads</settingParam1>
+        <settingParam2 name="Reagent quantity">4</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">PCR product</settingParam1>
+        <settingParam2 name="Reagent quantity">25</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND</type>
+        <id>73</id>
+        <comment>1,400 r.p.m.</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">10</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>241785388342801TM</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Vacuum aspiration process</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Immerse tips 5s to ethanol 70%</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Immerse tips 5s to denaturing solution</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Immerse tips 5s to washing solution</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 14</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Immerse tips 5s to annealing buffer</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>Step 15</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Aspirate filter tips to water trough</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>11</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
