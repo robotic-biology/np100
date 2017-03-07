@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">Bisulfite-treated DNA</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">96</settingParam3>
+        <settingParam4 name="Initial volume">1</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Positive control DNA</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Negative control DNA</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">10X PCR buffer</settingParam1>
+        <settingParam2 name="Reagent quantity">2.5</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">MgCl2 (25mM)</settingParam1>
+        <settingParam2 name="Reagent quantity">1.6</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">dNTP mix (8mM)</settingParam1>
+        <settingParam2 name="Reagent quantity">1.25</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">primer forward (10pM/ul)</settingParam1>
+        <settingParam2 name="Reagent quantity">0.5</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">primer reverse (10pM/ul)</settingParam1>
+        <settingParam2 name="Reagent quantity">0.5</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">HotStar Taq DNA polymerase (5U/ul)</settingParam1>
+        <settingParam2 name="Reagent quantity">0.4</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>Upto 25 micro littre</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">High purity water</settingParam1>
+        <settingParam2 name="Reagent quantity">10</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND</type>
+        <id>71</id>
+        <comment> activate the polymerase by incubating</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">95℃</settingParam1>
+        <settingParam2 name="Timer">15</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>50 cycle
+30s denaturation at 95 deg. celcius
+30s annealing at at 60 deg. celcius
+10s extension at 72 deg. celcius</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">PCR</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND_TRANSFER</type>
+        <id>163</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+        <commandType>COM_TRANSFER_00_0021</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">5</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Collection Tube</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>14</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">-20℃</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">Loading buffer</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">96</settingParam3>
+        <settingParam4 name="Initial volume">7</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND</type>
+        <id>71</id>
+        <comment>2% agarose gel electrophoresis
+110mA
+</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">Etc.</settingParam1>
+        <settingParam2 name="Timer">25</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>15</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">DustBox</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
