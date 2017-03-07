@@ -7,6 +7,9 @@
     <useAdjustTopPosision>0</useAdjustTopPosision>
   </status>
   <main>
+    <protocolMetaData>
+      <title>Neutral red uptake assay for the estimation of cell viability/cytotoxicity</title>
+    </protocolMetaData>
     <object>
       <objectId>1</objectId><item>
         <itemId>1</itemId><type>OBJECT_START</type>
