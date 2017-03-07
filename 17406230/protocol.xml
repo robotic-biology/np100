@@ -7,6 +7,18 @@
     <useAdjustTopPosision>0</useAdjustTopPosision>
   </status>
   <main>
+    <protocolMetaData>
+      <title>Protocol for the fast chromatin immunoprecipitation (ChIP) method</title>
+      <modules>
+        <module>
+          <name>wash</name>
+          <startObjectId>2</startObjectId>
+          <startItemId>3</startItemId>
+          <endObjectId>2</endObjectId>
+          <endItemId>9</endItemId>
+        </module>
+      </modules>
+    </protocolMetaData>
     <object>
       <objectId>1</objectId><item>
         <itemId>1</itemId><type>OBJECT_START</type>
