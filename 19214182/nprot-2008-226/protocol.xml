@@ -10,7 +10,13 @@
     <protocolMetaData>
       <name>Spheroid-based drug screen: considerations and practical approach.</name>
       <modules>
-      </modules>
+        <module>
+          <name>Thaw cell sample</name>
+          <startObjectId>1</startObjectId>
+          <startItemId>2</startItemId>
+          <endObjectId>1</endObjectId>
+          <endItemId>4</endItemId>
+        </module>      </modules>
     </protocolMetaData>
     <object>
       <objectId>1</objectId><item>
