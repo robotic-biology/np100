@@ -13,34 +13,6 @@
         <id>0</id>
         <linkLineNo>1</linkLineNo>
         <linkItemNo>3</linkItemNo>
-        <objectType>OBJ600</objectType>
-        <settingParam1>T150 flasks</settingParam1>
-        <settingParam2>(non)</settingParam2>
-        <settingParam3>1</settingParam3>
-        <settingParam4>0</settingParam4>
-        <settingParam4Sub>[mL]</settingParam4Sub>
-      </item>
-      <item>
-        <type>COMMAND_TRANSFER</type>
-        <id>0</id>
-        <commandType>(non)</commandType>
-        <category>SCRAPE</category>
-      </item>
-      <item>
-        <type>OBJECT_END</type>
-        <id>0</id>
-        <linkLineNo>1</linkLineNo>
-        <linkItemNo>1</linkItemNo>
-        <objectType>OBJ600</objectType>
-        <settingParam1>37℃</settingParam1>
-      </item>
-    </object>
-    <object>
-      <item>
-        <type>OBJECT_START</type>
-        <id>0</id>
-        <linkLineNo>2</linkLineNo>
-        <linkItemNo>3</linkItemNo>
         <objectType>OBJ400</objectType>
         <settingParam2>(non)</settingParam2>
         <settingParam3>1</settingParam3>
@@ -50,7 +22,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>352</id>
-        <linkLineNo>3</linkLineNo>
+        <linkLineNo>2</linkLineNo>
         <linkItemNo>2</linkItemNo>
         <commandType>COM_TRANSFER_00_0210</commandType>
         <category>TRANSFER</category>
@@ -62,7 +34,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>2</linkLineNo>
+        <linkLineNo>1</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ400</objectType>
         <settingParam1>(non)</settingParam1>
@@ -72,7 +44,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>3</linkLineNo>
+        <linkLineNo>2</linkLineNo>
         <linkItemNo>10</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam2>(non)</settingParam2>
@@ -83,7 +55,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>2</linkLineNo>
+        <linkLineNo>1</linkLineNo>
         <linkItemNo>2</linkItemNo>
       </item>
       <item>
@@ -147,7 +119,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>143</id>
-        <linkLineNo>4</linkLineNo>
+        <linkLineNo>3</linkLineNo>
         <linkItemNo>9</linkItemNo>
         <commandType>COM_TRANSFER_00_0001</commandType>
         <category>TRANSFER</category>
@@ -159,7 +131,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>3</linkLineNo>
+        <linkLineNo>2</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam1>RT</settingParam1>
@@ -169,7 +141,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>4</linkLineNo>
+        <linkLineNo>3</linkLineNo>
         <linkItemNo>13</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam1>18-ml aliquot of the DNA/CaCl2 mixture</settingParam1>
@@ -209,7 +181,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>3</linkLineNo>
+        <linkLineNo>2</linkLineNo>
         <linkItemNo>9</linkItemNo>
       </item>
       <item>
@@ -235,7 +207,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>154</id>
-        <linkLineNo>5</linkLineNo>
+        <linkLineNo>4</linkLineNo>
         <linkItemNo>12</linkItemNo>
         <commandType>COM_TRANSFER_00_0012</commandType>
         <category>TRANSFER</category>
@@ -247,7 +219,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>4</linkLineNo>
+        <linkLineNo>3</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam1>RT</settingParam1>
@@ -257,7 +229,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>5</linkLineNo>
+        <linkLineNo>4</linkLineNo>
         <linkItemNo>20</linkItemNo>
         <objectType>OBJ400</objectType>
         <settingParam1>HEK293T</settingParam1>
@@ -314,7 +286,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>4</linkLineNo>
+        <linkLineNo>3</linkLineNo>
         <linkItemNo>12</linkItemNo>
       </item>
       <item>
@@ -376,7 +348,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>352</id>
-        <linkLineNo>6</linkLineNo>
+        <linkLineNo>5</linkLineNo>
         <linkItemNo>19</linkItemNo>
         <commandType>COM_TRANSFER_00_0210</commandType>
         <category>TRANSFER</category>
@@ -388,7 +360,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>5</linkLineNo>
+        <linkLineNo>4</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ400</objectType>
         <settingParam1>37℃</settingParam1>
@@ -398,7 +370,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>6</linkLineNo>
+        <linkLineNo>5</linkLineNo>
         <linkItemNo>22</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam1>cell supernatant</settingParam1>
@@ -478,7 +450,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>5</linkLineNo>
+        <linkLineNo>4</linkLineNo>
         <linkItemNo>19</linkItemNo>
       </item>
       <item>
@@ -497,7 +469,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>161</id>
-        <linkLineNo>7</linkLineNo>
+        <linkLineNo>6</linkLineNo>
         <linkItemNo>21</linkItemNo>
         <commandType>COM_TRANSFER_00_0019</commandType>
         <category>TRANSFER</category>
@@ -509,7 +481,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>6</linkLineNo>
+        <linkLineNo>5</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam1>37℃</settingParam1>
@@ -519,7 +491,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>7</linkLineNo>
+        <linkLineNo>6</linkLineNo>
         <linkItemNo>26</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>250-ml 0.45-mM PES filter flask</settingParam1>
@@ -607,7 +579,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>6</linkLineNo>
+        <linkLineNo>5</linkLineNo>
         <linkItemNo>21</linkItemNo>
       </item>
       <item>
@@ -640,7 +612,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>503</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>25</linkItemNo>
         <commandType>COM_TRANSFER_00_0361</commandType>
         <category>TRANSFER</category>
@@ -652,7 +624,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>7</linkLineNo>
+        <linkLineNo>6</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
@@ -662,7 +634,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>34</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>polypropylene wide-mouthed bottles</settingParam1>
@@ -766,7 +738,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>7</linkLineNo>
+        <linkLineNo>6</linkLineNo>
         <linkItemNo>25</linkItemNo>
       </item>
       <item>
@@ -822,7 +794,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>503</id>
-        <linkLineNo>12</linkLineNo>
+        <linkLineNo>11</linkLineNo>
         <linkItemNo>31</linkItemNo>
         <commandType>COM_TRANSFER_00_0361</commandType>
         <category>TRANSFER</category>
@@ -838,7 +810,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>495</id>
-        <linkLineNo>9</linkLineNo>
+        <linkLineNo>8</linkLineNo>
         <linkItemNo>33</linkItemNo>
         <commandType>COM_TRANSFER_00_0353</commandType>
         <category>TRANSFER</category>
@@ -850,7 +822,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
@@ -860,7 +832,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>9</linkLineNo>
+        <linkLineNo>8</linkLineNo>
         <linkItemNo>47</linkItemNo>
         <objectType>OBJ302</objectType>
         <settingParam1>5x10**4 HOS cell</settingParam1>
@@ -993,7 +965,7 @@
       <item>
         <type>TRANSFER_SPACE</type>
         <id>0</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>31</linkItemNo>
       </item>
       <item>
@@ -1007,7 +979,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>33</linkItemNo>
       </item>
       <item>
@@ -1120,7 +1092,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>334</id>
-        <linkLineNo>11</linkLineNo>
+        <linkLineNo>10</linkLineNo>
         <linkItemNo>46</linkItemNo>
         <commandType>COM_TRANSFER_00_0192</commandType>
         <category>TRANSFER</category>
@@ -1132,7 +1104,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>9</linkLineNo>
+        <linkLineNo>8</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ302</objectType>
         <settingParam1>(non)</settingParam1>
@@ -1142,7 +1114,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>10</linkLineNo>
+        <linkLineNo>9</linkLineNo>
         <linkItemNo>2</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam2>(non)</settingParam2>
@@ -1153,7 +1125,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>10</linkLineNo>
+        <linkLineNo>9</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
@@ -1163,7 +1135,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>11</linkLineNo>
+        <linkLineNo>10</linkLineNo>
         <linkItemNo>54</linkItemNo>
         <objectType>OBJ101</objectType>
         <settingParam1>Round-bottomed-tube</settingParam1>
@@ -1291,7 +1263,7 @@
       <item>
         <type>TRANSFER_SPACE</type>
         <id>0</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>31</linkItemNo>
       </item>
       <item>
@@ -1353,7 +1325,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>9</linkLineNo>
+        <linkLineNo>8</linkLineNo>
         <linkItemNo>46</linkItemNo>
       </item>
       <item>
@@ -1426,7 +1398,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>11</linkLineNo>
+        <linkLineNo>10</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ101</objectType>
         <settingParam1>(non)</settingParam1>
@@ -1436,7 +1408,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>12</linkLineNo>
+        <linkLineNo>11</linkLineNo>
         <linkItemNo>35</linkItemNo>
         <comment>1 ml of medium containing RPMI 1640 + 10% FBS, 1% Glutamax and 1% penicillin?streptomycin in a 12-well plate.</comment>
         <objectType>OBJ600</objectType>
@@ -1565,7 +1537,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>8</linkLineNo>
+        <linkLineNo>7</linkLineNo>
         <linkItemNo>31</linkItemNo>
       </item>
       <item>
@@ -1589,7 +1561,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>486</id>
-        <linkLineNo>13</linkLineNo>
+        <linkLineNo>12</linkLineNo>
         <linkItemNo>34</linkItemNo>
         <commandType>COM_TRANSFER_00_0344</commandType>
         <category>TRANSFER</category>
@@ -1601,7 +1573,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>12</linkLineNo>
+        <linkLineNo>11</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
@@ -1611,7 +1583,7 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>13</linkLineNo>
+        <linkLineNo>12</linkLineNo>
         <linkItemNo>37</linkItemNo>
         <objectType>OBJ101</objectType>
         <settingParam2>(non)</settingParam2>
@@ -1750,7 +1722,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>12</linkLineNo>
+        <linkLineNo>11</linkLineNo>
         <linkItemNo>34</linkItemNo>
       </item>
       <item>
@@ -1769,7 +1741,7 @@
       <item>
         <type>COMMAND_TRANSFER</type>
         <id>162</id>
-        <linkLineNo>14</linkLineNo>
+        <linkLineNo>13</linkLineNo>
         <linkItemNo>36</linkItemNo>
         <comment>Recover supernatant </comment>
         <commandType>COM_TRANSFER_00_0020</commandType>
@@ -1782,7 +1754,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>13</linkLineNo>
+        <linkLineNo>12</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ101</objectType>
         <settingParam1>(non)</settingParam1>
@@ -1792,8 +1764,8 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>14</linkLineNo>
-        <linkItemNo>39</linkItemNo>
+        <linkLineNo>13</linkLineNo>
+        <linkItemNo>40</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam2>(non)</settingParam2>
         <settingParam3>1</settingParam3>
@@ -1939,7 +1911,7 @@
       <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>13</linkLineNo>
+        <linkLineNo>12</linkLineNo>
         <linkItemNo>36</linkItemNo>
       </item>
       <item>
@@ -1962,9 +1934,21 @@
         <settingParam2>(non)</settingParam2>
       </item>
       <item>
+        <type>COMMAND_TRANSFER</type>
+        <id>161</id>
+        <linkLineNo>14</linkLineNo>
+        <linkItemNo>39</linkItemNo>
+        <commandType>COM_TRANSFER_00_0019</commandType>
+        <category>TRANSFER</category>
+        <settingParam1>0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2>(non)</settingParam2>
+        <settingParam3>(non)</settingParam3>
+      </item>
+      <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>14</linkLineNo>
+        <linkLineNo>13</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ100</objectType>
         <settingParam1>(non)</settingParam1>
@@ -1974,14 +1958,168 @@
       <item>
         <type>OBJECT_START</type>
         <id>0</id>
-        <linkLineNo>15</linkLineNo>
-        <linkItemNo>14</linkItemNo>
+        <linkLineNo>14</linkLineNo>
+        <linkItemNo>52</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>T25 flask</settingParam1>
         <settingParam2>(non)</settingParam2>
         <settingParam3>1</settingParam3>
         <settingParam4>0</settingParam4>
         <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>13</linkLineNo>
+        <linkItemNo>39</linkItemNo>
       </item>
       <item>
         <type>COMMAND</type>
@@ -2100,7 +2238,7 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>15</linkLineNo>
+        <linkLineNo>14</linkLineNo>
         <linkItemNo>1</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
