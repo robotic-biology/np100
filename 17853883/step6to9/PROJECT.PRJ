@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JobProtocolEditorSaveData>
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+        <objectType>OBJ101</objectType>
+        <settingParam1>Bisulfite-treated DNA</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>96</settingParam3>
+        <settingParam4>1</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>Positive control DNA</settingParam1>
+        <settingParam2>1</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>Negative control DNA</settingParam1>
+        <settingParam2>1</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>10X PCR buffer</settingParam1>
+        <settingParam2>2.5</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>MgCl2 (25mM)</settingParam1>
+        <settingParam2>1.6</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>dNTP mix (8mM)</settingParam1>
+        <settingParam2>1.25</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>primer forward (10pM/ul)</settingParam1>
+        <settingParam2>0.5</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>primer reverse (10pM/ul)</settingParam1>
+        <settingParam2>0.5</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>HotStar Taq DNA polymerase (5U/ul)</settingParam1>
+        <settingParam2>0.4</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>Upto 25 micro littre</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1>High purity water</settingParam1>
+        <settingParam2>10</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>71</id>
+        <comment> activate the polymerase by incubating</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1>95℃</settingParam1>
+        <settingParam2>15</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>541</id>
+        <comment>50 cycle
+30s denaturation at 95 deg. celcius
+30s annealing at at 60 deg. celcius
+10s extension at 72 deg. celcius</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>PCR</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND_TRANSFER</type>
+        <id>163</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+        <commandType>COM_TRANSFER_00_0021</commandType>
+        <category>TRANSFER</category>
+        <settingParam1>5</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2>Collection Tube</settingParam2>
+        <settingParam3>--</settingParam3>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ101</objectType>
+        <settingParam1>-20℃</settingParam1>
+      </item>
+    </object>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+        <objectType>OBJ101</objectType>
+        <settingParam1>Loading buffer</settingParam1>
+        <settingParam2>RT</settingParam2>
+        <settingParam3>96</settingParam3>
+        <settingParam4>7</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>71</id>
+        <comment>2% agarose gel electrophoresis
+110mA
+</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1>Etc.</settingParam1>
+        <settingParam2>25</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ101</objectType>
+        <settingParam1>DustBox</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
