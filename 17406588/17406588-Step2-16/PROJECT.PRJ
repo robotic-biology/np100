@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JobProtocolEditorSaveData>
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <item>
+        <type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>16</linkItemNo>
+        <comment>(uncertain tube/container)</comment>
+        <objectType>OBJ103</objectType>
+        <settingParam1>Mitochondorial concentration</settingParam1>
+        <settingParam2>4℃</settingParam2>
+        <settingParam3>1</settingParam3>
+        <settingParam4>0</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Calibrate the Clarke-type oxygen electrode. Procedures vary from instrument to instrument. You should follow the manufacturer's instructions</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Calibrate</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>73</id>
+        <comment>Equilibbrate temperature and oxygen tention of EBc or EBm
+Comment ID: 261740658842801TK</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1>(non)</settingParam1>
+        <settingParam2>20-30</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>Add an appropriate volume of EB to the oxygraph chamber.
+Comment ID: 271740658842801TK</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1>EB</settingParam1>
+        <settingParam2>0.5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Start the recording of the oxygen consumption.</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Record</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>73</id>
+        <comment>Wait for 2min to obtain a stable baseline.</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1>(non)</settingParam1>
+        <settingParam2>2</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>Using an appropriate Hamilton microsyringe, add mitochondria to obtain a final concentration of 1 mg/ml.
+Comment ID: 371740658842801TK</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam2>0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Record oxygen consumption till it stops.
+Comment ID: 381740658842801TK</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Record</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>Using Hamilton mycrosyringes, add the appropriate concentations of respiratory substrates and inhibitors.
+Comment ID: 391740658842801TK</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam2>0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Record for 5min.</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Record</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>Add ADP to obtain a final concentration of 100-150 microM.
+Comment ID: 401740658842801TK</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1>ADP</settingParam1>
+        <settingParam2>0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>73</id>
+        <comment>Wait until the respiration slows down and returns to a rate comparabble to that before the addition of ADP.</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1>(non)</settingParam1>
+        <settingParam2>0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>73</id>
+        <comment>Wait for 3min.</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1>(non)</settingParam1>
+        <settingParam2>3</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>Add the uncoupler FCCP to obtain a final concentration of 60-100 nM.</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1>uncoupler FCCP</settingParam1>
+        <settingParam2>0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>543</id>
+        <comment>Record for a further 5min and then stop recording.</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Record</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType>OBJ103</objectType>
+        <settingParam1>(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
