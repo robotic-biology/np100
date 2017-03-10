@@ -1,0 +1,670 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">Sample leaf material</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">2</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND</type>
+        <id>542</id>
+        <comment>Define the exact mass of plant sample(~100mg of flesh weight)</comment>
+        <commandType>COM_FREE-ON_00_0003</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">weight</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND</type>
+        <id>72</id>
+        <comment>rapidly freeze the sample-containing vial using liquid nitrogen of an equivalent low-temperature liquid(No specified time)</comment>
+        <commandType>COM_REACT_00_0003</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">-80℃</settingParam1>
+        <settingParam2 name="Timer">5</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND</type>
+        <id>542</id>
+        <comment>place steels balls into the sample tubes and insert samples into precoolded Teflon adaptors(for 2min at 20Hz)</comment>
+        <commandType>COM_FREE-ON_00_0003</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">homogenize</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_ADD</type>
+        <id>3</id>
+        <comment>100% metahnol must be pre-cooled at -20℃</comment>
+        <commandType>COM_ADD_00_0003</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">100% methanol</settingParam1>
+        <settingParam2 name="Reagent quantity">1400</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND</type>
+        <id>22</id>
+        <commandType>COM_MIX_00_0003</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Vortex</settingParam1>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_ADD</type>
+        <id>3</id>
+        <comment>as an internal quantitative standard</comment>
+        <commandType>COM_ADD_00_0003</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Ribitol(0.2mg ml-1 stock in dH2O)</settingParam1>
+        <settingParam2 name="Reagent quantity">60</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>22</id>
+        <commandType>COM_MIX_00_0003</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Vortex</settingParam1>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND</type>
+        <id>22</id>
+        <comment>Shake in a thermomixer at 950 r.p.m</comment>
+        <commandType>COM_MIX_00_0003</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">70</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND</type>
+        <id>41</id>
+        <commandType>COM_CENTRIFUGE_00_0003</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">11000</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">Swing Rotor</settingParam4>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND_TRANSFER</type>
+        <id>199</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <commandType>COM_TRANSFER_00_0057</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>12</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 2">OBJ102</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>18</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">Schott GL14 glass vial</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">chloroform(-20℃)</settingParam1>
+        <settingParam2 name="Reagent quantity">750</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">dH20(4℃)</settingParam1>
+        <settingParam2 name="Reagent quantity">1500</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND</type>
+        <id>38</id>
+        <commandType>COM_MIX_00_0019</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Vortex</settingParam1>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND</type>
+        <id>50</id>
+        <commandType>COM_CENTRIFUGE_00_0012</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">2200</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">15</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">Etc.</settingParam4>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND_TRANSFER</type>
+        <id>488</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>16</linkItemNo>
+        <comment>transfer from the upper phase(polar phase)</comment>
+        <commandType>COM_TRANSFER_00_0346</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">150</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Upper Layer</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>17</itemId><type>COMMAND_TRANSFER</type>
+        <id>488</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+        <comment>as a backup(in case you lose a sample), take a second aliquot into a new 1.5-ml tube</comment>
+        <commandType>COM_TRANSFER_00_0346</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">150</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Upper Layer</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>18</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>27</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">fresh 1.5-ml tube</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>16</linkItemNo>
+      </item>
+      <item>
+        <itemId>17</itemId><type>TRANSFER_SPACE</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND</type>
+        <id>532</id>
+        <comment>Dry in a vacuum concentrator without heating(no specific time)</comment>
+        <commandType>COM_CONCENTRATE_00_0004</commandType>
+        <category>CONCENTRATE</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Heat">0</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">0</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>19</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>fill the tubes with argon gas</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">fill / argon gas</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND</type>
+        <id>73</id>
+        <comment>place tubes inside a plastic bag containing silica bead desiccant</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">Etc.</settingParam1>
+        <settingParam2 name="Timer">0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>21</itemId><type>COMMAND</type>
+        <id>532</id>
+        <comment>place samples stored at -80℃ in a vacuum concentrator for 30min before derivatization</comment>
+        <commandType>COM_CONCENTRATE_00_0004</commandType>
+        <category>CONCENTRATE</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Heat">-80</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">30</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>22</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>see REAGENT SETUP</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">methoxyamination reagent</settingParam1>
+        <settingParam2 name="Reagent quantity">40</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>23</itemId><type>COMMAND</type>
+        <id>23</id>
+        <comment>Shake for 2h at 37℃</comment>
+        <commandType>COM_MIX_00_0004</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">37</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">2</settingParam3>
+        <settingParam3Sub>[hour]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>24</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <comment>MSTFA reagent with 20ul ml-1 of retention time index standard mixture(see REAGENT SETUP)</comment>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">MSTFA reagent with 20ul ml-1 of retentio</settingParam1>
+        <settingParam2 name="Reagent quantity">70</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>25</itemId><type>COMMAND</type>
+        <id>23</id>
+        <comment>Shake for 30min at 37℃</comment>
+        <commandType>COM_MIX_00_0004</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">37</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">30</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>26</itemId><type>COMMAND_TRANSFER</type>
+        <id>218</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>26</linkItemNo>
+        <commandType>COM_TRANSFER_00_0076</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Etc.</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>27</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>18</linkItemNo>
+        <comment>as a backup(in case you lose a sample), take a second aliquot into a new 1.5-ml tube</comment>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">new 1.5-ml tube(backup)</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+      </item>
+      <item>
+        <itemId>18</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>5</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>27</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">glass vials suitable for GC-MS analysis</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>25</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>26</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>26</linkItemNo>
+      </item>
+      <item>
+        <itemId>27</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>

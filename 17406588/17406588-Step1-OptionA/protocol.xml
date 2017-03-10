@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>7</linkItemNo>
+        <comment>Seeding 120x10^6 MEFs per dish 2 days before the experiment results in approximately 3 mg of mitochondrial protein</comment>
+        <objectType name="Dish 100">OBJ401</objectType>
+        <settingParam1 name="Title">Mouse embryonic fibroblasts (MEFs)</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_DISCARD</type>
+        <id>63</id>
+        <comment>Remove medium from the cells</comment>
+        <commandType>COM_DISCARD_00_0013</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Etc.</settingParam1>
+        <settingParam2 name="Rack">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND_ADD</type>
+        <id>571</id>
+        <comment>Wash the cells once with PBS</comment>
+        <commandType>COM_FREE-IN_00_0013</commandType>
+        <category>&lt;NewCmd_IN&gt;</category>
+        <settingParam1 name="Detail">Wash</settingParam1>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND_TRANSFER</type>
+        <id>98</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+        <comment>Remove PBS and detach the cells using a cell scraper</comment>
+        <commandType>COM_SCRAPE_00_0010</commandType>
+        <category>SCRAPE</category>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_ADD</type>
+        <id>571</id>
+        <comment>Wash the plate once with PBS</comment>
+        <commandType>COM_FREE-IN_00_0013</commandType>
+        <category>&lt;NewCmd_IN&gt;</category>
+        <settingParam1 name="Detail">Wash</settingParam1>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND_TRANSFER</type>
+        <id>98</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+        <comment>Detach the remaining cells</comment>
+        <commandType>COM_SCRAPE_00_0010</commandType>
+        <category>SCRAPE</category>
+      </item>
+      <item>
+        <itemId>7</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 100">OBJ401</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">New 50ml polypropylene Falcon tube</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND</type>
+        <id>39</id>
+        <commandType>COM_CENTRIFUGE_00_0001</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">600</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND_DISCARD</type>
+        <id>51</id>
+        <commandType>COM_DISCARD_00_0001</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_ADD</type>
+        <id>1</id>
+        <comment>IBc: Buffer for cell and mouse liver mitochondria isolation -- see paper for preparation</comment>
+        <commandType>COM_ADD_00_0001</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">ice-cold IBc</settingParam1>
+        <settingParam2 name="Reagent quantity">3</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_TRANSFER</type>
+        <id>161</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+        <commandType>COM_TRANSFER_00_0019</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">3</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>11</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">Glass/Teflon Potter Elvehjem homogenizer</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">5</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND</type>
+        <id>558</id>
+        <comment>Homogenize the cells using a Teflon pestle operated at 1,600 rpm; must be performed at 4C degrees</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Homogenize</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND</type>
+        <id>558</id>
+        <comment>Stroke the cell suspension placed in a glass potter 30-40 times</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Stroke</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND_TRANSFER</type>
+        <id>485</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+        <comment>Transfer the homogenate</comment>
+        <commandType>COM_TRANSFER_00_0343</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">3</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>14</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>16</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">New 30ml polypropylene Falcon tube</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">50</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND</type>
+        <id>39</id>
+        <commandType>COM_CENTRIFUGE_00_0001</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">600</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND_TRANSFER</type>
+        <id>161</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+        <commandType>COM_TRANSFER_00_0019</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">50</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">Supernatant</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>16</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>5</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>21</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">New glass centrifuge tube</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">500</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND</type>
+        <id>50</id>
+        <commandType>COM_CENTRIFUGE_00_0012</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">7000</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>17</itemId><type>COMMAND_DISCARD</type>
+        <id>69</id>
+        <commandType>COM_DISCARD_00_0019</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND_ADD</type>
+        <id>577</id>
+        <comment>Wash the pellet with 200 micro litters of ice-cold IBBc</comment>
+        <commandType>COM_FREE-IN_00_0019</commandType>
+        <category>&lt;NewCmd_IN&gt;</category>
+        <settingParam1 name="Detail">Wash</settingParam1>
+      </item>
+      <item>
+        <itemId>19</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <comment>Discard the supernatant and wash the pellet</comment>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">ice-cold IBc</settingParam1>
+        <settingParam2 name="Reagent quantity">200</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND_TRANSFER</type>
+        <id>488</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>20</linkItemNo>
+        <commandType>COM_TRANSFER_00_0346</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>21</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>6</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>25</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">New 1.5ml microfuge tube</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">200</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>20</linkItemNo>
+      </item>
+      <item>
+        <itemId>21</itemId><type>COMMAND</type>
+        <id>42</id>
+        <commandType>COM_CENTRIFUGE_00_0004</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">7000</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>22</itemId><type>COMMAND_DISCARD</type>
+        <id>54</id>
+        <commandType>COM_DISCARD_00_0004</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>23</itemId><type>COMMAND</type>
+        <id>507</id>
+        <comment>Avoid adding IB and try to resuspend the mitochondria in the small amount of buffer that remains after discarding the supernatant.</comment>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>24</itemId><type>COMMAND_TRANSFER</type>
+        <id>203</id>
+        <linkLineNo>7</linkLineNo>
+        <linkItemNo>24</linkItemNo>
+        <comment>Transfer the mitochondrial suspension to a microfuge and store it on ice.</comment>
+        <commandType>COM_TRANSFER_00_0061</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Etc.</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>25</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>7</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>7</linkLineNo>
+        <linkItemNo>27</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">New microfuge</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>24</linkItemNo>
+      </item>
+      <item>
+        <itemId>25</itemId><type>COMMAND</type>
+        <id>73</id>
+        <comment>Store on ice.</comment>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">4℃</settingParam1>
+        <settingParam2 name="Timer">0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>26</itemId><type>COMMAND</type>
+        <id>543</id>
+        <comment>Measure mitochondria concentration using the Biuret methods.</comment>
+        <commandType>COM_FREE-ON_00_0004</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Measure</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>27</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>7</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
