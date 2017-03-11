@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>19</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">2</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <comment>e.g., for fibroblasts, use 10 mg ml 1 fibronectin or 50 mg ml 1 poly-L-lysine as a control</comment>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">ECM substarate</settingParam1>
+        <settingParam2 name="Reagent quantity">2</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND</type>
+        <id>84</id>
+        <comment>or 4C for over night</comment>
+        <commandType>COM_REACT_00_0015</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">2</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">2mg ml-1 bovine serum albumin</settingParam1>
+        <settingParam2 name="Reagent quantity">3</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND</type>
+        <id>84</id>
+        <commandType>COM_REACT_00_0015</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">1</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">PBS</settingParam1>
+        <settingParam2 name="Reagent quantity">2</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <comment>3-5 ml</comment>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">medium</settingParam1>
+        <settingParam2 name="Reagent quantity">3</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND</type>
+        <id>84</id>
+        <comment>until subconfluent</comment>
+        <commandType>COM_REACT_00_0015</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">0</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>13</itemId><type>LOOP_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>16</linkItemNo>
+        <settingParam1>2</settingParam1>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">PBS</settingParam1>
+        <settingParam2 name="Reagent quantity">2</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>16</itemId><type>LOOP_FROM</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+      </item>
+      <item>
+        <itemId>17</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Tripsin</settingParam1>
+        <settingParam2 name="Reagent quantity">500</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND_TRANSFER</type>
+        <id>410</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>18</linkItemNo>
+        <commandType>COM_TRANSFER_00_0268</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">500</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Collection Tube</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>19</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>24</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">Collected Cell</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">2</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>18</linkItemNo>
+      </item>
+      <item>
+        <itemId>19</itemId><type>COMMAND</type>
+        <id>40</id>
+        <commandType>COM_CENTRIFUGE_00_0002</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">1000</settingParam1>
+        <settingParam1Sub>[rpm]</settingParam1Sub>
+        <settingParam2 name="Temperature">25</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND_DISCARD</type>
+        <id>52</id>
+        <commandType>COM_DISCARD_00_0002</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>21</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">medium</settingParam1>
+        <settingParam2 name="Reagent quantity">3</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>22</itemId><type>COMMAND</type>
+        <id>541</id>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">cell count</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>23</itemId><type>COMMAND_TRANSFER</type>
+        <id>176</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>23</linkItemNo>
+        <comment>Plate cells to create confluent monolayer on 60mm dish.
+depending on cell counts</comment>
+        <commandType>COM_TRANSFER_00_0034</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Etc.</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>24</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">DustBox</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>34</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">3ml medium</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">3</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>23</linkItemNo>
+      </item>
+      <item>
+        <itemId>24</itemId><type>COMMAND</type>
+        <id>84</id>
+        <commandType>COM_REACT_00_0015</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">6</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>25</itemId><type>COMMAND</type>
+        <id>554</id>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">scrape to make scratch line</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>26</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <comment>discard medium</comment>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>27</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <comment>to wach cells</comment>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">mediunm</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>28</itemId><type>COMMAND_DISCARD</type>
+        <id>65</id>
+        <commandType>COM_DISCARD_00_0015</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>29</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">medium</settingParam1>
+        <settingParam2 name="Reagent quantity">5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>30</itemId><type>COMMAND</type>
+        <id>554</id>
+        <comment>The reference points can be made by etching the dish lightly with a razor blade on the outer bottom of the dish </comment>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Make reference poinst </settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>31</itemId><type>COMMAND</type>
+        <id>554</id>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Capture image by microscope</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>32</itemId><type>COMMAND</type>
+        <id>84</id>
+        <comment>8-18 hour</comment>
+        <commandType>COM_REACT_00_0015</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">8</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>33</itemId><type>COMMAND</type>
+        <id>554</id>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">phase-contrast microscope</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>34</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>

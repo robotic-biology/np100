@@ -1,0 +1,784 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">pregnant dam</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND</type>
+        <id>554</id>
+        <comment>On D-day, kill the pregnant dam
+ using an approved method of
+ euthanasia,</comment>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">kill</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND</type>
+        <id>554</id>
+        <comment>dissect out the uterus</comment>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">dissect out / uterus</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND_TRANSFER</type>
+        <id>881</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+        <comment>and place in a sterile Petri dish.</comment>
+        <commandType>COM_FREE-GO_00_0285</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+        <settingParam1 name="Detail">place</settingParam1>
+      </item>
+      <item>
+        <itemId>5</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>7</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">sterile Petri dish</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND</type>
+        <id>558</id>
+        <comment>dissect out their brains</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">dissect out / brain</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND_TRANSFER</type>
+        <id>953</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+        <comment>and place them in a dish containing CMF-HBSS.The
+ tissue needs to remain submerged at
+ all times.</comment>
+        <commandType>COM_FREE-GO_00_0357</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+        <settingParam1 name="Detail">place </settingParam1>
+      </item>
+      <item>
+        <itemId>7</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">CMF-HBSS.</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_DISCARD</type>
+        <id>592</id>
+        <comment>Using a dissecting microscope,
+ remove the meninges from the medial
+
+aspect of the cerebral hemispheres,</comment>
+        <commandType>COM_FREE-OUT_00_0015</commandType>
+        <category>&lt;NewCmd_OUT&gt;</category>
+        <settingParam1 name="Detail">remove</settingParam1>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>554</id>
+        <comment>then dissect out the hippocampus.</comment>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">dissect out / hippocampus</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_TRANSFER</type>
+        <id>877</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>9</linkItemNo>
+        <comment>Collect the hippocampi in a dish
+ containing CMF-HBSS</comment>
+        <commandType>COM_FREE-GO_00_0281</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+        <settingParam1 name="Detail">collect</settingParam1>
+      </item>
+      <item>
+        <itemId>10</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">CMF-HBSS</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>9</linkItemNo>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_TRANSFER</type>
+        <id>410</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+        <comment>When all of the hippocampi have been removed, place them in a 15-ml conical centrifuge tube</comment>
+        <commandType>COM_TRANSFER_00_0268</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>11</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>5</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>38</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">15-ml conical centrifuge tube</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>bring the volume to 4.5 ml with CMF-HBSS.</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">CMF-HBSS</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>12</itemId><type>LOOP_TO</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>19</linkItemNo>
+        <settingParam1>2</settingParam1>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>Add 0.5 ml of 2.5% trypsin</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">2.5% trypsin</settingParam1>
+        <settingParam2 name="Reagent quantity">0.5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND</type>
+        <id>71</id>
+        <comment>and incubate for 15 min in a water bath at 37℃.</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">15</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND_DISCARD</type>
+        <id>52</id>
+        <comment>Gently remove trypsin solution, leaving the hippocampi at the bottom of the tube;</comment>
+        <commandType>COM_DISCARD_00_0002</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>add 5 ml of CMF-HBSS</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">CMF-HBSS</settingParam1>
+        <settingParam2 name="Reagent quantity">5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>17</itemId><type>COMMAND</type>
+        <id>71</id>
+        <comment>and let stand for
+ 5 min at room temperature.</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">5</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>Repeat this twice to allow residual trypsin to diffuse from the tissue.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>19</itemId><type>LOOP_FROM</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>Bring the final volume to 2~3 ml.</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam2 name="Reagent quantity">5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>21</itemId><type>COMMAND</type>
+        <id>505</id>
+        <comment>Dissociate the hippocampi by repeatedly pipetting them up and down in a Pasteur pipette.</comment>
+        <commandType>COM_SUSPEND_00_0002</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">10</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>22</itemId><type>COMMAND</type>
+        <id>505</id>
+        <comment>Begin with five to ten passes through a regular pipette, then continue with five to ten passes through a Pasteur pipette </comment>
+        <commandType>COM_SUSPEND_00_0002</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">10</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>23</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>that has been flame-polished so that its tip diameter is narrowed by half</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>24</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>Expel the suspension forcefully against the wall of the tube to minimize foaming.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>25</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>By the end, there should be no chunks of tissue left.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>26</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>Determine the cell density by adding a drop of the cell suspension to a hemacytometer.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Determine the cell density </settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>27</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>Also determine the total yield,
+which should be 400,000?500,000 cells per hippocampus.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Determine the total yield</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>28</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>The viability, according to exclusion of trypan blue, should
+ be 85%?90%.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>29</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>Adjust the cell density to about 1?1.5 million cells ml?1.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Adjust the cell density</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>30</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>At this point, cells may be transfected using the
+ nucleofection protocol (see Box 1).</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>31</itemId><type>COMMAND_ADD</type>
+        <id>2</id>
+        <comment>add the desired number of cells to each of the dishes containing the polylysine-treated coverslips in Neuronal Plating Medium.</comment>
+        <commandType>COM_ADD_00_0002</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">desired number of cells</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>32</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>Our standard plating density is 150,000 cells per 60-mm dish, but a range from 50,000 to 500,000 is practicable.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>33</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>This plating method ensures an even density of cells across the entire coverslip,</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>34</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>although cells that do not settle onto the coverslips are lost.</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">--comment--</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>35</itemId><type>COMMAND</type>
+        <id>71</id>
+        <comment>After 3~4 h,</comment>
+        <commandType>COM_REACT_00_0002</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">4</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>36</itemId><type>COMMAND</type>
+        <id>541</id>
+        <comment>examine the dishes to ensure that most of the cells have attached,</comment>
+        <commandType>COM_FREE-ON_00_0002</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">examine</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>37</itemId><type>COMMAND_TRANSFER</type>
+        <id>176</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>37</linkItemNo>
+        <comment>then transfer the coverslips
+ to the dishes with the glial feeder layer in N2 or Neurobasal/B27 (Table 1).</comment>
+        <commandType>COM_TRANSFER_00_0034</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>38</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>6</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>41</linkItemNo>
+        <comment>glial feeder layer in N2 or Neurobasal/B27 </comment>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">glial feeder layer</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>25</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>26</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>27</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>28</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>29</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>30</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>31</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>32</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>33</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>34</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>35</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>36</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>37</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>37</linkItemNo>
+      </item>
+      <item>
+        <itemId>38</itemId><type>COMMAND</type>
+        <id>554</id>
+        <comment>Invert the coverslips so that the paraffin feet are
+ resting on the bottom of the dish.</comment>
+        <commandType>COM_FREE-ON_00_0015</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Invert the coverslips</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>39</itemId><type>COMMAND</type>
+        <id>84</id>
+        <comment>Three days after plating,</comment>
+        <commandType>COM_REACT_00_0015</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">72</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>40</itemId><type>COMMAND_ADD</type>
+        <id>15</id>
+        <comment>add cytosine arabinoside (1-b-D-arabinofuranosylcytosine) to a final concentration of 5 mM to
+ curb glial proliferation.</comment>
+        <commandType>COM_ADD_00_0015</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">cytosine arabinoside</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>41</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 60">OBJ403</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>

@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>3</linkItemNo>
+        <comment>Volume undefined</comment>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">Target DNA</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_TRANSFER</type>
+        <id>205</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <comment>Volume undefined</comment>
+        <commandType>COM_TRANSFER_00_0063</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[?EL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>3</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+        <objectType name="Tube 0.2">OBJ105</objectType>
+        <settingParam1 name="Title">10mM Tris-HCl, pH 7-8</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND</type>
+        <id>75</id>
+        <commandType>COM_REACT_00_0006</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">95??</settingParam1>
+        <settingParam2 name="Timer">5</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND</type>
+        <id>75</id>
+        <comment>Duration undefined</comment>
+        <commandType>COM_REACT_00_0006</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">4??</settingParam1>
+        <settingParam2 name="Timer">0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_TRANSFER</type>
+        <id>243</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+        <commandType>COM_TRANSFER_00_0101</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">1</settingParam1>
+        <settingParam1Sub>[?EL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>6</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 0.2">OBJ105</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>3</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">Reaction mixture 2</settingParam1>
+        <settingParam2 name="Device">4??</settingParam2>
+        <settingParam3 name="No. of objects">4</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_TRANSFER</type>
+        <id>148</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <commandType>COM_TRANSFER_00_0006</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">24</settingParam1>
+        <settingParam1Sub>[?EL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>3</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+        <objectType name="Tube 0.2">OBJ105</objectType>
+        <settingParam2 name="Device">4??</settingParam2>
+        <settingParam3 name="No. of objects">4</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND</type>
+        <id>25</id>
+        <comment>Mix well</comment>
+        <commandType>COM_MIX_00_0006</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Tapping</settingParam1>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[??C]</settingParam2Sub>
+        <settingParam3 name="Timer">0</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND</type>
+        <id>44</id>
+        <comment>Spin down briefly
+Be careful not to allow bubbles to form while mixing</comment>
+        <commandType>COM_CENTRIFUGE_00_0006</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">0</settingParam1>
+        <settingParam1Sub>[?~g]</settingParam1Sub>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[??C]</settingParam2Sub>
+        <settingParam3 name="Timer">0</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+        <settingParam4 name="Device">Desk Type</settingParam4>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>75</id>
+        <comment>65C
+Care shuold be taken to ensure that tube caps cannot come open while removing from the machine</comment>
+        <commandType>COM_REACT_00_0006</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">(non)</settingParam1>
+        <settingParam2 name="Timer">60</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND</type>
+        <id>75</id>
+        <comment>Enzyme inactivation and to stop the reaction</comment>
+        <commandType>COM_REACT_00_0006</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">95??</settingParam1>
+        <settingParam2 name="Timer">2</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND</type>
+        <id>545</id>
+        <comment>Comment ID: 11845179542801NY</comment>
+        <commandType>COM_FREE-ON_00_0006</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Check product</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND_TRANSFER</type>
+        <id>241</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <commandType>COM_TRANSFER_00_0099</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">100</settingParam1>
+        <settingParam1Sub>[?EL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>12</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 0.2">OBJ105</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>5</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND</type>
+        <id>42</id>
+        <commandType>COM_CENTRIFUGE_00_0004</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">3000</settingParam1>
+        <settingParam1Sub>[?~g]</settingParam1Sub>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[??C]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND_TRANSFER</type>
+        <id>203</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+        <comment>Volume undefined</comment>
+        <commandType>COM_TRANSFER_00_0061</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[?EL]</settingParam1Sub>
+        <settingParam2 name="Collect">Supernatant</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>14</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>6</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>16</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>13</linkItemNo>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND_TRANSFER</type>
+        <id>672</id>
+        <linkLineNo>7</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+        <comment>Comment ID: 41845179542801NY</comment>
+        <commandType>COM_FREE-GO_00_0076</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND_TRANSFER</type>
+        <id>218</id>
+        <linkLineNo>10</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+        <comment>Apply to the gel
+Undefined volume </comment>
+        <commandType>COM_TRANSFER_00_0076</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0.5</settingParam1>
+        <settingParam1Sub>[µL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>16</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>7</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>7</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">F-4500 fluorescence spectrophotometer</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+      </item>
+      <item>
+        <itemId>15</itemId><type>TRANSFER_SPACE</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND</type>
+        <id>558</id>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Observe</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>17</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>7</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>8</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>8</linkLineNo>
+        <linkItemNo>3</linkItemNo>
+        <comment>Volume undefined</comment>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">1x TBE buffer</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_TRANSFER</type>
+        <id>161</id>
+        <linkLineNo>10</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+        <commandType>COM_TRANSFER_00_0019</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[µL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>3</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>8</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 50">OBJ100</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>9</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>9</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+        <comment>Volume and dimentions undefined</comment>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">2.5% agarose gel </settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>TRANSFER_SPACE</type>
+        <id>0</id>
+        <linkLineNo>8</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND_TRANSFER</type>
+        <id>957</id>
+        <linkLineNo>10</linkLineNo>
+        <linkItemNo>3</linkItemNo>
+        <commandType>COM_FREE-GO_00_0361</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+        <settingParam1 name="Detail">Move gel</settingParam1>
+      </item>
+      <item>
+        <itemId>4</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>9</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>10</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>10</linkLineNo>
+        <linkItemNo>18</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">Gel electrophoresis bath</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[?EL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>8</linkLineNo>
+        <linkItemNo>2</linkItemNo>
+      </item>
+      <item>
+        <itemId>3</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>9</linkLineNo>
+        <linkItemNo>3</linkItemNo>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>6</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND</type>
+        <id>558</id>
+        <comment>100V for 40min</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Gel electrophoresis</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>17</itemId><type>COMMAND_TRANSFER</type>
+        <id>957</id>
+        <linkLineNo>11</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+        <commandType>COM_FREE-GO_00_0361</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+        <settingParam1 name="Detail">Move gel</settingParam1>
+      </item>
+      <item>
+        <itemId>18</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>10</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>11</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>11</linkLineNo>
+        <linkItemNo>20</linkItemNo>
+        <comment>Volume undefined</comment>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">1 ug/ml ethidium bromide </settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[µL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>10</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND</type>
+        <id>558</id>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Stain gel</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>19</itemId><type>COMMAND_TRANSFER</type>
+        <id>957</id>
+        <linkLineNo>12</linkLineNo>
+        <linkItemNo>19</linkItemNo>
+        <commandType>COM_FREE-GO_00_0361</commandType>
+        <category>&lt;NewCmd_GO&gt;</category>
+      </item>
+      <item>
+        <itemId>20</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>11</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>12</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>12</linkLineNo>
+        <linkItemNo>21</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">Gel doc</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[µL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>11</linkLineNo>
+        <linkItemNo>19</linkItemNo>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND</type>
+        <id>558</id>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Observe</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>21</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>12</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>

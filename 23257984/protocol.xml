@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">frozen cell vial</settingParam1>
+        <settingParam2 name="Device">Liquid Nitorogen</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND</type>
+        <id>88</id>
+        <comment> immerse the vial in a 37 °C water
+bath without submerging the cap. </comment>
+        <commandType>COM_REACT_00_0019</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND</type>
+        <id>38</id>
+        <comment>Swirl the vial gently for 2~3 minutes until the 
+contents are completely thawed.</comment>
+        <commandType>COM_MIX_00_0019</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">37</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">3</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_TRANSFER</type>
+        <id>486</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+        <comment>Use a sterile
+1 ml pipette to gently transfer the cells </comment>
+        <commandType>COM_TRANSFER_00_0344</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">1</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">Etc.</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>6</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+        <comment>sterile 15 ml conical tube
+containing 5 ml of room temperature mTeSR1 medium.</comment>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">mTeSR1 medium</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">5</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND</type>
+        <id>40</id>
+        <commandType>COM_CENTRIFUGE_00_0002</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">200</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">(non)</settingParam4>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_DISCARD</type>
+        <id>52</id>
+        <comment> Aspirate and discard the 
+supernatant with a sterilized pasteur pipette</comment>
+        <commandType>COM_DISCARD_00_0002</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>8</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND</type>
+        <id>505</id>
+        <comment>Resuspend the cell pellet in 6 ml mTeSR1 medium + 5 μM Y27632. </comment>
+        <commandType>COM_SUSPEND_00_0002</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_TRANSFER</type>
+        <id>172</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+        <comment> Slowly add
+ 2 ml the cell suspension into each well of the Matrigel-coated 6-well plate (1
+vial to 3 wells). </comment>
+        <commandType>COM_TRANSFER_00_0030</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">2</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">Etc.</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>11</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>25</linkItemNo>
+        <objectType name="Microplate 6">OBJ302</objectType>
+        <settingParam1 name="Title">Matrigel-coated 6-well plate</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND</type>
+        <id>80</id>
+        <comment> place it at room temperature
+for 15 minutes to warm up the plate.</comment>
+        <commandType>COM_REACT_00_0011</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">15</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>3</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND_DISCARD</type>
+        <id>61</id>
+        <comment>Aspirate the liquid from the wells
+ of the Matrigel-coated plate.</comment>
+        <commandType>COM_DISCARD_00_0011</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Etc.</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>9</itemId><type>SPACE</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>10</linkItemNo>
+      </item>
+      <item>
+        <itemId>11</itemId><type>LOOP_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>17</linkItemNo>
+        <comment>usually about 3 to 5 days after passaging,
+daily monitoring is necessary</comment>
+        <settingParam1>5</settingParam1>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND</type>
+        <id>30</id>
+        <comment>Move the plate in three quick, short, back-and-forth and side-to-side motions to disperse cells across the surface of the wells.
+</comment>
+        <commandType>COM_MIX_00_0011</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">0</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND</type>
+        <id>80</id>
+        <comment>Put the plate back into the 37°C, 5% CO2 incubator</comment>
+        <commandType>COM_REACT_00_0011</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">CO2 Incubator</settingParam1>
+        <settingParam2 name="Timer">24</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND_DISCARD</type>
+        <id>61</id>
+        <comment>[6]The next day, aspirate the medium in each well</comment>
+        <commandType>COM_DISCARD_00_0011</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Etc.</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND_ADD</type>
+        <id>11</id>
+        <comment>[6]and replace with 2 ml fresh
+room temperature mTeSR1 medium daily.</comment>
+        <commandType>COM_ADD_00_0011</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">mTeSR1 medium</settingParam1>
+        <settingParam2 name="Reagent quantity">2</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND</type>
+        <id>550</id>
+        <comment>[7]When the cells are 80?90% confluent (usually about 3 to 5 days after passaging,
+daily monitoring is necessary),</comment>
+        <commandType>COM_FREE-ON_00_0011</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">check if the cells are 80~90% confluent </settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>17</itemId><type>LOOP_FROM</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>11</linkItemNo>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND_DISCARD</type>
+        <id>61</id>
+        <comment>[7]aspirate the old medium</comment>
+        <commandType>COM_DISCARD_00_0011</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Etc.</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>19</itemId><type>COMMAND_ADD</type>
+        <id>11</id>
+        <comment>[7]add 1 ml room
+ temperature Versene to each well. </comment>
+        <commandType>COM_ADD_00_0011</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Versene(RT)</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND</type>
+        <id>80</id>
+        <comment>[8]Incubate the plate at 37 °C, 5% CO2 and wait for 4 minutes</comment>
+        <commandType>COM_REACT_00_0011</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">CO2 Incubator</settingParam1>
+        <settingParam2 name="Timer">4</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>21</itemId><type>COMMAND_DISCARD</type>
+        <id>61</id>
+        <comment>[9]Aspirate the Versene</comment>
+        <commandType>COM_DISCARD_00_0011</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>22</itemId><type>COMMAND</type>
+        <id>514</id>
+        <comment>[9]hold a 5 ml pipette filled with 3 ml mTeSR1 + 5 μM Y27632 perpendicular to the plate... </comment>
+        <commandType>COM_SUSPEND_00_0011</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">5</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Number of times">1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>23</itemId><type>COMMAND</type>
+        <id>514</id>
+        <comment>[9] ...and dispense the medium over the surface of the plate well until all the cells are detached.</comment>
+        <commandType>COM_SUSPEND_00_0011</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">5</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Number of times">1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>24</itemId><type>COMMAND_TRANSFER</type>
+        <id>334</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>24</linkItemNo>
+        <comment>[9]After the cells are removed from
+the surface of the well, pool the contents of the well into a sterile conical tube</comment>
+        <commandType>COM_TRANSFER_00_0192</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>25</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Microplate 6">OBJ302</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>27</linkItemNo>
+        <comment>sterile conical tube
+ containing 9 ml mTeSR1 + 5 μM Y27632</comment>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">9 ml mTeSR1 + 5 μM Y27632</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">9</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>24</linkItemNo>
+      </item>
+      <item>
+        <itemId>25</itemId><type>COMMAND</type>
+        <id>505</id>
+        <comment>[9]gently mix 5~10 times using 5 ml
+ pipette</comment>
+        <commandType>COM_SUSPEND_00_0002</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>26</itemId><type>COMMAND_TRANSFER</type>
+        <id>172</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>26</linkItemNo>
+        <comment>[9]Seed 2 ml of the cell suspension into each well of a Matrigel-coated or Synthemax 6-well plate (split ratio of 1:6 is performed here).</comment>
+        <commandType>COM_TRANSFER_00_0030</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">2</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>27</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 15">OBJ101</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>5</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>34</linkItemNo>
+        <objectType name="Microplate 6">OBJ302</objectType>
+        <settingParam1 name="Title">Matrigel-coated 6-well plate</settingParam1>
+        <settingParam2 name="Device">4℃</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>25</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>26</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>26</linkItemNo>
+      </item>
+      <item>
+        <itemId>27</itemId><type>COMMAND</type>
+        <id>30</id>
+        <comment>[10]Move the plate in three quick, short, back-and-forth and side-to-side motions to disperse cells across the surface of the wells.
+</comment>
+        <commandType>COM_MIX_00_0011</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">0</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">0</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>28</itemId><type>COMMAND</type>
+        <id>80</id>
+        <comment>[10]Return the plate to the incubator after plating the cells</comment>
+        <commandType>COM_REACT_00_0011</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">CO2 Incubator</settingParam1>
+        <settingParam2 name="Timer">0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>29</itemId><type>COMMAND_DISCARD</type>
+        <id>61</id>
+        <comment>[11]Each day aspirate the medium</comment>
+        <commandType>COM_DISCARD_00_0011</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Etc.</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>30</itemId><type>COMMAND_ADD</type>
+        <id>11</id>
+        <comment>[11] and add 2 ml of fresh room temperature mTeSR1
+ per well.
+</comment>
+        <commandType>COM_ADD_00_0011</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">mTeSR1 medium</settingParam1>
+        <settingParam2 name="Reagent quantity">2</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>31</itemId><type>COMMAND</type>
+        <id>550</id>
+        <comment>[12]Expand both of the plasmids used for lentiviral production in Stbl3 E coli</comment>
+        <commandType>COM_FREE-ON_00_0011</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">Expand </settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>32</itemId><type>COMMAND</type>
+        <id>550</id>
+        <comment>[12]extract the plasmids with the Qiagen EndoFree Plasmid Maxi Kit or
+PureLink HiPure Plasmid Midiprep Kit </comment>
+        <commandType>COM_FREE-ON_00_0011</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">extract the plasmids</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>33</itemId><type>COMMAND</type>
+        <id>514</id>
+        <comment>[12]Resuspend the plasmid in Elution Buffer at a concentration of
+ approximately 1 μg/μl.</comment>
+        <commandType>COM_SUSPEND_00_0011</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">1</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3 name="Device">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>34</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Microplate 6">OBJ302</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
