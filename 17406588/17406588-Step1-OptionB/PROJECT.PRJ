@@ -12,64 +12,52 @@
         <type>OBJECT_START</type>
         <id>0</id>
         <linkLineNo>1</linkLineNo>
-        <linkItemNo>7</linkItemNo>
-        <comment>Seeding 120x10^6 MEFs per dish 2 days before the experiment results in approximately 3 mg of mitochondrial protein</comment>
-        <objectType>OBJ401</objectType>
-        <settingParam1>Mouse embryonic fibroblasts (MEFs)</settingParam1>
+        <linkItemNo>5</linkItemNo>
+        <objectType>OBJ600</objectType>
+        <settingParam1>Mouse</settingParam1>
         <settingParam2>(non)</settingParam2>
         <settingParam3>1</settingParam3>
         <settingParam4>0</settingParam4>
         <settingParam4Sub>[ｵL]</settingParam4Sub>
       </item>
       <item>
-        <type>COMMAND_DISCARD</type>
-        <id>63</id>
-        <comment>Remove medium from the cells</comment>
-        <commandType>COM_DISCARD_00_0013</commandType>
-        <category>DISCARD</category>
-        <settingParam1>Etc.</settingParam1>
+        <type>COMMAND</type>
+        <id>88</id>
+        <comment>Starve the mouse overnight before the isolation experiment.</comment>
+        <commandType>COM_REACT_00_0019</commandType>
+        <category>REACT</category>
+        <settingParam1>(non)</settingParam1>
+        <settingParam2>0</settingParam2>
+        <settingParam2Sub>[sec]</settingParam2Sub>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>558</id>
+        <comment>Kill an adult mouse (about 30g) by cervical dislocation and rapidly explant the liver from the peritoneal cavity (remove the gallbladder).</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Kill</settingParam1>
         <settingParam2>(non)</settingParam2>
       </item>
       <item>
-        <type>COMMAND_ADD</type>
-        <id>571</id>
-        <comment>Wash the cells once with PBS</comment>
-        <commandType>COM_FREE-IN_00_0013</commandType>
-        <category>&lt;NewCmd_IN&gt;</category>
-        <settingParam1>Wash</settingParam1>
-      </item>
-      <item>
         <type>COMMAND_TRANSFER</type>
-        <id>98</id>
+        <id>503</id>
         <linkLineNo>2</linkLineNo>
         <linkItemNo>4</linkItemNo>
-        <comment>Remove PBS and detach the cells using a cell scraper</comment>
-        <commandType>COM_SCRAPE_00_0010</commandType>
-        <category>SCRAPE</category>
-      </item>
-      <item>
-        <type>COMMAND_ADD</type>
-        <id>571</id>
-        <comment>Wash the plate once with PBS</comment>
-        <commandType>COM_FREE-IN_00_0013</commandType>
-        <category>&lt;NewCmd_IN&gt;</category>
-        <settingParam1>Wash</settingParam1>
-      </item>
-      <item>
-        <type>COMMAND_TRANSFER</type>
-        <id>98</id>
-        <linkLineNo>2</linkLineNo>
-        <linkItemNo>6</linkItemNo>
-        <comment>Detach the remaining cells</comment>
-        <commandType>COM_SCRAPE_00_0010</commandType>
-        <category>SCRAPE</category>
+        <comment>Immerse the liver in 50ml of ice-cold IBc in a small beaker.</comment>
+        <commandType>COM_TRANSFER_00_0361</commandType>
+        <category>TRANSFER</category>
+        <settingParam1>0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2>(non)</settingParam2>
+        <settingParam3>(non)</settingParam3>
       </item>
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
         <linkLineNo>1</linkLineNo>
         <linkItemNo>1</linkItemNo>
-        <objectType>OBJ401</objectType>
+        <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
       </item>
     </object>
@@ -78,13 +66,13 @@
         <type>OBJECT_START</type>
         <id>0</id>
         <linkLineNo>2</linkLineNo>
-        <linkItemNo>11</linkItemNo>
-        <objectType>OBJ100</objectType>
-        <settingParam1>New 50ml polypropylene Falcon tube</settingParam1>
+        <linkItemNo>10</linkItemNo>
+        <objectType>OBJ600</objectType>
+        <settingParam1>A small beaker</settingParam1>
         <settingParam2>4℃</settingParam2>
         <settingParam3>1</settingParam3>
-        <settingParam4>0</settingParam4>
-        <settingParam4Sub>[ｵL]</settingParam4Sub>
+        <settingParam4>50</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
       </item>
       <item>
         <type>BLANK</type>
@@ -101,55 +89,52 @@
         <linkItemNo>4</linkItemNo>
       </item>
       <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>TRANSFER_TO</type>
-        <id>0</id>
-        <linkLineNo>1</linkLineNo>
-        <linkItemNo>6</linkItemNo>
+        <type>COMMAND</type>
+        <id>558</id>
+        <comment>Rinse the liver free of blood by using ice-cold IBc. Usually, four or five washes are sufficient to completely clarify the IBc.</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Rinse</settingParam1>
+        <settingParam2>(non)</settingParam2>
       </item>
       <item>
         <type>COMMAND</type>
-        <id>39</id>
-        <commandType>COM_CENTRIFUGE_00_0001</commandType>
-        <category>CENTRIFUGE</category>
-        <settingParam1>600</settingParam1>
-        <settingParam1Sub>[ﾗg]</settingParam1Sub>
-        <settingParam2>4</settingParam2>
-        <settingParam2Sub>[ｰC]</settingParam2Sub>
-        <settingParam3>10</settingParam3>
-        <settingParam3Sub>[min]</settingParam3Sub>
-        <settingParam4>(non)</settingParam4>
+        <id>558</id>
+        <comment>Mince the liver into small pieces using scissors. This should be performed while keeping the beaker in an ice bath.</comment>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1>Mince</settingParam1>
+        <settingParam2>(non)</settingParam2>
       </item>
       <item>
         <type>COMMAND_DISCARD</type>
-        <id>51</id>
-        <commandType>COM_DISCARD_00_0001</commandType>
+        <id>69</id>
+        <comment>Discard the IBc used during the mincing.</comment>
+        <commandType>COM_DISCARD_00_0019</commandType>
         <category>DISCARD</category>
         <settingParam1>Supernatant</settingParam1>
         <settingParam2>(non)</settingParam2>
       </item>
       <item>
         <type>COMMAND_ADD</type>
-        <id>1</id>
-        <comment>IBc: Buffer for cell and mouse liver mitochondria isolation -- see paper for preparation</comment>
-        <commandType>COM_ADD_00_0001</commandType>
+        <id>19</id>
+        <comment>Replace it with 5ml of ice-cold fresh IBc</comment>
+        <commandType>COM_ADD_00_0019</commandType>
         <category>ADD</category>
-        <settingParam1>ice-cold IBc</settingParam1>
-        <settingParam2>3</settingParam2>
+        <settingParam1>IBc</settingParam1>
+        <settingParam2>5</settingParam2>
         <settingParam2Sub>[mL]</settingParam2Sub>
       </item>
       <item>
         <type>COMMAND_TRANSFER</type>
-        <id>161</id>
+        <id>503</id>
         <linkLineNo>3</linkLineNo>
-        <linkItemNo>10</linkItemNo>
-        <commandType>COM_TRANSFER_00_0019</commandType>
+        <linkItemNo>9</linkItemNo>
+        <comment>The optimal ratio between tissue and isolation buffer ranges between 1:5 to 1:10 (w:v).</comment>
+        <commandType>COM_TRANSFER_00_0361</commandType>
         <category>TRANSFER</category>
-        <settingParam1>3</settingParam1>
-        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam1>0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
         <settingParam2>(non)</settingParam2>
         <settingParam3>(non)</settingParam3>
       </item>
@@ -158,7 +143,7 @@
         <id>0</id>
         <linkLineNo>2</linkLineNo>
         <linkItemNo>1</linkItemNo>
-        <objectType>OBJ100</objectType>
+        <objectType>OBJ600</objectType>
         <settingParam1>(non)</settingParam1>
       </item>
     </object>
@@ -167,7 +152,7 @@
         <type>OBJECT_START</type>
         <id>0</id>
         <linkLineNo>3</linkLineNo>
-        <linkItemNo>14</linkItemNo>
+        <linkItemNo>13</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>Glass/Teflon Potter Elvehjem homogenizer</settingParam1>
         <settingParam2>4℃</settingParam2>
@@ -204,19 +189,15 @@
         <id>0</id>
       </item>
       <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
         <linkLineNo>2</linkLineNo>
-        <linkItemNo>10</linkItemNo>
+        <linkItemNo>9</linkItemNo>
       </item>
       <item>
         <type>COMMAND</type>
         <id>558</id>
-        <comment>Homogenize the cells using a Teflon pestle operated at 1,600 rpm; must be performed at 4C degrees</comment>
+        <comment>Homogenize the liver using a Teflon pestle operated at 1,600 rpm</comment>
         <commandType>COM_FREE-ON_00_0019</commandType>
         <category>&lt;NewCmd_ON&gt;</category>
         <settingParam1>Homogenize</settingParam1>
@@ -235,11 +216,11 @@
         <type>COMMAND_TRANSFER</type>
         <id>485</id>
         <linkLineNo>4</linkLineNo>
-        <linkItemNo>13</linkItemNo>
+        <linkItemNo>12</linkItemNo>
         <comment>Transfer the homogenate</comment>
         <commandType>COM_TRANSFER_00_0343</commandType>
         <category>TRANSFER</category>
-        <settingParam1>3</settingParam1>
+        <settingParam1>5</settingParam1>
         <settingParam1Sub>[mL]</settingParam1Sub>
         <settingParam2>(non)</settingParam2>
         <settingParam3>(non)</settingParam3>
@@ -258,9 +239,9 @@
         <type>OBJECT_START</type>
         <id>0</id>
         <linkLineNo>4</linkLineNo>
-        <linkItemNo>16</linkItemNo>
+        <linkItemNo>15</linkItemNo>
         <objectType>OBJ100</objectType>
-        <settingParam1>New 30ml polypropylene Falcon tube</settingParam1>
+        <settingParam1>New 50ml polypropylene Falcon tube</settingParam1>
         <settingParam2>4℃</settingParam2>
         <settingParam3>1</settingParam3>
         <settingParam4>50</settingParam4>
@@ -307,14 +288,10 @@
         <id>0</id>
       </item>
       <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
         <linkLineNo>3</linkLineNo>
-        <linkItemNo>13</linkItemNo>
+        <linkItemNo>12</linkItemNo>
       </item>
       <item>
         <type>COMMAND</type>
@@ -333,7 +310,7 @@
         <type>COMMAND_TRANSFER</type>
         <id>161</id>
         <linkLineNo>5</linkLineNo>
-        <linkItemNo>15</linkItemNo>
+        <linkItemNo>14</linkItemNo>
         <commandType>COM_TRANSFER_00_0019</commandType>
         <category>TRANSFER</category>
         <settingParam1>50</settingParam1>
@@ -355,7 +332,7 @@
         <type>OBJECT_START</type>
         <id>0</id>
         <linkLineNo>5</linkLineNo>
-        <linkItemNo>21</linkItemNo>
+        <linkItemNo>22</linkItemNo>
         <objectType>OBJ600</objectType>
         <settingParam1>New glass centrifuge tube</settingParam1>
         <settingParam2>4℃</settingParam2>
@@ -412,14 +389,10 @@
         <id>0</id>
       </item>
       <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
         <linkLineNo>4</linkLineNo>
-        <linkItemNo>15</linkItemNo>
+        <linkItemNo>14</linkItemNo>
       </item>
       <item>
         <type>COMMAND</type>
@@ -445,27 +418,50 @@
       <item>
         <type>COMMAND_ADD</type>
         <id>577</id>
-        <comment>Wash the pellet with 200 micro litters of ice-cold IBc</comment>
+        <comment>Wash the pellet with 5ml of ice-cold IBc</comment>
         <commandType>COM_FREE-IN_00_0019</commandType>
         <category>&lt;NewCmd_IN&gt;</category>
         <settingParam1>Wash</settingParam1>
       </item>
       <item>
-        <type>COMMAND_ADD</type>
-        <id>19</id>
-        <comment>Discard the supernatant and wash the pellet</comment>
-        <commandType>COM_ADD_00_0019</commandType>
-        <category>ADD</category>
-        <settingParam1>ice-cold IBc</settingParam1>
-        <settingParam2>200</settingParam2>
-        <settingParam2Sub>[ｵL]</settingParam2Sub>
+        <type>COMMAND</type>
+        <id>50</id>
+        <commandType>COM_CENTRIFUGE_00_0012</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1>7000</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2>4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3>10</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4>(non)</settingParam4>
+      </item>
+      <item>
+        <type>COMMAND_DISCARD</type>
+        <id>69</id>
+        <commandType>COM_DISCARD_00_0019</commandType>
+        <category>DISCARD</category>
+        <settingParam1>Supernatant</settingParam1>
+        <settingParam2>(non)</settingParam2>
+      </item>
+      <item>
+        <type>COMMAND</type>
+        <id>517</id>
+        <comment>You can use a glass rod to loosen the pellet paste.</comment>
+        <commandType>COM_SUSPEND_00_0014</commandType>
+        <category>SUSPEND</category>
+        <settingParam1>0</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2>1</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+        <settingParam3>(non)</settingParam3>
       </item>
       <item>
         <type>COMMAND_TRANSFER</type>
-        <id>488</id>
+        <id>486</id>
         <linkLineNo>6</linkLineNo>
-        <linkItemNo>20</linkItemNo>
-        <commandType>COM_TRANSFER_00_0346</commandType>
+        <linkItemNo>21</linkItemNo>
+        <commandType>COM_TRANSFER_00_0344</commandType>
         <category>TRANSFER</category>
         <settingParam1>0</settingParam1>
         <settingParam1Sub>[ｵL]</settingParam1Sub>
@@ -486,156 +482,10 @@
         <type>OBJECT_START</type>
         <id>0</id>
         <linkLineNo>6</linkLineNo>
-        <linkItemNo>25</linkItemNo>
-        <objectType>OBJ103</objectType>
-        <settingParam1>New 1.5ml microfuge tube</settingParam1>
-        <settingParam2>4℃</settingParam2>
-        <settingParam3>1</settingParam3>
-        <settingParam4>200</settingParam4>
-        <settingParam4Sub>[ｵL]</settingParam4Sub>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>TRANSFER_TO</type>
-        <id>0</id>
-        <linkLineNo>5</linkLineNo>
-        <linkItemNo>20</linkItemNo>
-      </item>
-      <item>
-        <type>COMMAND</type>
-        <id>42</id>
-        <commandType>COM_CENTRIFUGE_00_0004</commandType>
-        <category>CENTRIFUGE</category>
-        <settingParam1>7000</settingParam1>
-        <settingParam1Sub>[ﾗg]</settingParam1Sub>
-        <settingParam2>4</settingParam2>
-        <settingParam2Sub>[ｰC]</settingParam2Sub>
-        <settingParam3>10</settingParam3>
-        <settingParam3Sub>[min]</settingParam3Sub>
-        <settingParam4>(non)</settingParam4>
-      </item>
-      <item>
-        <type>COMMAND_DISCARD</type>
-        <id>54</id>
-        <commandType>COM_DISCARD_00_0004</commandType>
-        <category>DISCARD</category>
-        <settingParam1>Supernatant</settingParam1>
+        <linkItemNo>23</linkItemNo>
+        <objectType>OBJ101</objectType>
+        <settingParam1>New 14ml Falcon tube</settingParam1>
         <settingParam2>(non)</settingParam2>
-      </item>
-      <item>
-        <type>COMMAND</type>
-        <id>507</id>
-        <comment>Avoid adding IB and try to resuspend the mitochondria in the small amount of buffer that remains after discarding the supernatant.</comment>
-        <commandType>COM_SUSPEND_00_0004</commandType>
-        <category>SUSPEND</category>
-        <settingParam1>0</settingParam1>
-        <settingParam1Sub>[ｵL]</settingParam1Sub>
-        <settingParam2>1</settingParam2>
-        <settingParam2Sub>[Times]</settingParam2Sub>
-        <settingParam3>(non)</settingParam3>
-      </item>
-      <item>
-        <type>COMMAND_TRANSFER</type>
-        <id>203</id>
-        <linkLineNo>7</linkLineNo>
-        <linkItemNo>24</linkItemNo>
-        <comment>Transfer the mitochondrial suspension to a microfuge and store it on ice.</comment>
-        <commandType>COM_TRANSFER_00_0061</commandType>
-        <category>TRANSFER</category>
-        <settingParam1>0</settingParam1>
-        <settingParam1Sub>[ｵL]</settingParam1Sub>
-        <settingParam2>Etc.</settingParam2>
-        <settingParam3>(non)</settingParam3>
-      </item>
-      <item>
-        <type>OBJECT_END</type>
-        <id>0</id>
-        <linkLineNo>6</linkLineNo>
-        <linkItemNo>1</linkItemNo>
-        <objectType>OBJ103</objectType>
-        <settingParam1>(non)</settingParam1>
-      </item>
-    </object>
-    <object>
-      <item>
-        <type>OBJECT_START</type>
-        <id>0</id>
-        <linkLineNo>7</linkLineNo>
-        <linkItemNo>27</linkItemNo>
-        <objectType>OBJ103</objectType>
-        <settingParam1>New microfuge</settingParam1>
-        <settingParam2>4℃</settingParam2>
         <settingParam3>1</settingParam3>
         <settingParam4>0</settingParam4>
         <settingParam4Sub>[ｵL]</settingParam4Sub>
@@ -717,38 +567,16 @@
         <id>0</id>
       </item>
       <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
-        <type>BLANK</type>
-        <id>0</id>
-      </item>
-      <item>
         <type>TRANSFER_TO</type>
         <id>0</id>
-        <linkLineNo>6</linkLineNo>
-        <linkItemNo>24</linkItemNo>
+        <linkLineNo>5</linkLineNo>
+        <linkItemNo>21</linkItemNo>
       </item>
       <item>
         <type>COMMAND</type>
-        <id>73</id>
-        <comment>Store on ice.</comment>
-        <commandType>COM_REACT_00_0004</commandType>
-        <category>REACT</category>
-        <settingParam1>4℃</settingParam1>
-        <settingParam2>0</settingParam2>
-        <settingParam2Sub>[sec]</settingParam2Sub>
-      </item>
-      <item>
-        <type>COMMAND</type>
-        <id>543</id>
+        <id>541</id>
         <comment>Measure mitochondria concentration using the Biuret methods.</comment>
-        <commandType>COM_FREE-ON_00_0004</commandType>
+        <commandType>COM_FREE-ON_00_0002</commandType>
         <category>&lt;NewCmd_ON&gt;</category>
         <settingParam1>Measure</settingParam1>
         <settingParam2>(non)</settingParam2>
@@ -756,9 +584,9 @@
       <item>
         <type>OBJECT_END</type>
         <id>0</id>
-        <linkLineNo>7</linkLineNo>
+        <linkLineNo>6</linkLineNo>
         <linkItemNo>1</linkItemNo>
-        <objectType>OBJ103</objectType>
+        <objectType>OBJ101</objectType>
         <settingParam1>(non)</settingParam1>
       </item>
     </object>
