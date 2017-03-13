@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>6</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">1L bottle</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">1000</settingParam4>
+        <settingParam4Sub>[mL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">12C1H3-methionine</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND</type>
+        <id>38</id>
+        <commandType>COM_MIX_00_0019</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Invert</settingParam1>
+        <settingParam2 name="Temperature">25</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">30</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND_TRANSFER</type>
+        <id>503</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+        <commandType>COM_TRANSFER_00_0361</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">500</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_TRANSFER</type>
+        <id>503</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+        <commandType>COM_TRANSFER_00_0361</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">500</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Collect">(non)</settingParam2>
+        <settingParam3 name="Rack">(non)</settingParam3>
+      </item>
+      <item>
+        <itemId>6</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+        <comment> 0.22 um vacuum filter flasks</comment>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">DMEM (light)</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>4</linkItemNo>
+      </item>
+      <item>
+        <itemId>5</itemId><type>TRANSFER_SPACE</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">arginine (light)</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">lysine (light)</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>558</id>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">vaccume</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent"> antibiotics</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">glutamine</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent"> dialyzed fetal bovine serum </settingParam1>
+        <settingParam2 name="Reagent quantity">50</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>12</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>12</linkItemNo>
+        <comment> 0.22 um vacuum filter flasks</comment>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">DMEM (heavy)</settingParam1>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>5</linkItemNo>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">arginine (heavy)</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">lysine (heavy)</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>558</id>
+        <commandType>COM_FREE-ON_00_0019</commandType>
+        <category>&lt;NewCmd_ON&gt;</category>
+        <settingParam1 name="Detail">vaccume</settingParam1>
+        <settingParam2 name="Device">(non)</settingParam2>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent"> antibiotics</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">glutamine</settingParam1>
+        <settingParam2 name="Reagent quantity">0</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND_ADD</type>
+        <id>19</id>
+        <commandType>COM_ADD_00_0019</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent"> dialyzed fetal bovine serum </settingParam1>
+        <settingParam2 name="Reagent quantity">50</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>12</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="&lt;NewObj&gt;">OBJ600</objectType>
+        <settingParam1 name="Title">(non)</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
